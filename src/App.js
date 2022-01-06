@@ -1,12 +1,27 @@
 import * as S from './styles';
 import ImgLogo from './components/img/logohub.png';
 import ImgAlgumaCoisa from './components/img/algumacoisa.png';
+import { GlobalStyle } from './GlobalStyle';
+
+
 
 const App = () => {
     return (
       <S.Wrap>
+        <GlobalStyle />
         <S.Header>
-          <S.ImgLogo src={ImgLogo} alt='Logo'/>
+          <S.ContainerHeader>
+            <S.ImgLogo src={ImgLogo} alt='Logo'/>
+            <S.BoxHeader>
+              <S.Paragraph>Encontrar empregos</S.Paragraph>
+              <S.Paragraph>Navegar pelas startups</S.Paragraph>
+            </S.BoxHeader>
+            <S.BoxLogin>
+              <S.Paragraph>Para startups</S.Paragraph>
+              <S.Span></S.Span>
+              <S.Paragraph><S.Link href='#'>Sign in</S.Link></S.Paragraph>
+            </S.BoxLogin>
+          </S.ContainerHeader>
         </S.Header>
         <S.Main>
           <S.Contain>
