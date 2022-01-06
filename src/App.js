@@ -1,5 +1,5 @@
 import * as S from './styles';
-import ImgLogo from './components/img/logo.png';
+import ImgLogo from './components/img/logohub.png';
 import ImgAlgumaCoisa from './components/img/algumacoisa.png';
 
 const App = () => {
@@ -18,7 +18,5 @@ const App = () => {
         </S.Main>
       </S.Wrap>
   );
-
 }
-
 export default App;

@@ -11,7 +11,7 @@ width: 100%;
 `
 
 export const ImgLogo = styled.img`
-width: 100%;
+width: 200px;
 `;
 
 export const Main = styled.section`
