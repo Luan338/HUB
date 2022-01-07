@@ -1,7 +1,7 @@
-import * as S from './styles';
+import * as S from './styles/styles.js';
 import ImgLogo from './components/img/logohub.png';
 import ImgAlgumaCoisa from './components/img/algumacoisa.png';
-import { GlobalStyle } from './GlobalStyle';
+import { GlobalStyle } from './styles/GlobalStyle';
 
 
 
